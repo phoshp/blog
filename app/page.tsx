@@ -1,8 +1,5 @@
-import type { Metadata } from "next";
 import { NoteList } from "@/components/note-list";
 import { getNotesMeta } from "@/lib/notes";
-
-export const metadata: Metadata = { title: "Writing" };
 
 export default function HomePage() {
   const notes = getNotesMeta();

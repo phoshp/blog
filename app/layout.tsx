@@ -4,7 +4,7 @@ import { Header } from "@/components/header";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: { default: "Emre's notes", template: "%s — Emre's notes" },
+  title: { default: "emre's notes", template: "%s — emre's notes" },
   description: "Notes about code",
 };
 
