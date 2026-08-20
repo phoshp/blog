@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
 import "./globals.css";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: { default: "emre's notes", template: "%s — emre's notes" },
@@ -18,6 +19,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <Footer />
         </div>
       </body>
+      <GoogleAnalytics gaId="G-3ZZTZ10K21" />
     </html>
   );
 }
